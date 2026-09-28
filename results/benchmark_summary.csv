@@ -1,0 +1,4 @@
+Defense Paradigm,Total Tests,Attacks Succeeded,Attack Success Rate (ASR),Mitigation Rate,False Positives,FPR,Latency Overhead
+System Prompt Baseline (No Gate),30,20 / 20,100.0%,0.0%,0 / 10,0.0%,0.1 ms
+Input Sanitizer & Delimiter Filter,30,6 / 20,30.0%,70.0%,0 / 10,0.0%,0.023 ms
+Deterministic Tool Policy Gate (Ours),30,0 / 20,0.0%,100.0%,0 / 10,0.0%,0.001 ms
